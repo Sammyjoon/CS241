@@ -4,7 +4,7 @@
  Author      : Sammie Omranian
  Version     :
  Copyright   : Your copyright notice
- Description : Pointer's example_1
+ Description : Pointer's example_1: How to get the memory address of a variable.
  ============================================================================
  */
 
