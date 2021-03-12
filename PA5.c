@@ -28,7 +28,7 @@ int main(void) {
 /* status value returned by fscanf */
 	int input_status;
 
-/* Prepare files for input or output */
+/* Prepare files for input and output */
 	//TODO
 
 
