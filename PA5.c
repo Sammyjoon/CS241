@@ -12,7 +12,7 @@
 
 /* function prototype */
 	//TODO
-void calc_area_perim(double, double, double*, double*);
+
 
 int main(void) {
 
