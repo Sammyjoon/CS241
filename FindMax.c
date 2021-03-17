@@ -32,7 +32,7 @@ int main(void) {
 }
 
 /*
-* Sets all elements of its array parameter to in_value.
+* Sets all elements of its array 
 * Pre: n (the number of elements) is defined.
 * Post: list[i] = numbers entered by the user, for 0 <= i < n.
 */
