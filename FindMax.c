@@ -1,7 +1,6 @@
 /*
  ============================================================================
  Name        : FindMax.c
- Author      : Sammie Omranian
  Version     :
  Copyright   : Your copyright notice
  Description :	Returns the largest of the first n values in array list
