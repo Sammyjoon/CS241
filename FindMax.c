@@ -25,7 +25,7 @@ int main(void) {
 
 	fill_array(list, n);
 	x_large = get_max(list, n);
-	printf("The maximum value is: %d", x_large); /* prints !!!Hello World!!! */
+	printf("The maximum value is: %d", x_large); 
 
 
 	return 0;
