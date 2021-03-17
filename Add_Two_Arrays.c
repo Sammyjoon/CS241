@@ -1,7 +1,6 @@
 /*
  ============================================================================
  Name        : Add_Two_Arrays.c
- Author      : Sammie Omranian
  Version     :
  Copyright   : Your copyright notice
  Description : Adds corresponding elements of arrays ar1 and ar2,
