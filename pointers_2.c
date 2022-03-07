@@ -10,7 +10,7 @@ int main(void) {
 	FILE *inp;		/*pointer to input file*/
 	FILE *outp;		/*pointer to output file*/
 	double item;	/*input number*/
-	int input_status; 	/* status value returned by fscanf */
+	int status; 	/* status value returned by fscanf */
 
 /* Prepare files for input or output */
 	inp = fopen("indata.txt", "r");  	//inp is holding the memory location
@@ -18,12 +18,12 @@ int main(void) {
 
 
 /* Input each item, format it, and write it */
-	input_status = fscanf(inp, "%lf", &item);
+	status = fscanf(inp, "%lf", &item);
 
 	while (input_status == 1)
 	{
 		fprintf(outp, "%.2f\n", item);
-		input_status = fscanf(inp, "%lf", &item);
+		status = fscanf(inp, "%lf", &item);
 	}
 
 	/* Close the files */
