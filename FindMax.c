@@ -41,7 +41,7 @@ void fill_array (int list[],	/* output - list of n integers*/
 	int i;
 	printf("n= %d\n", n);
 	for (i = 0; i<n; ++i){
-		printf("Please enter a number: ");
+		printf("Enter a number: ");
 		scanf("%d", &list[i]);
 	}
 }
