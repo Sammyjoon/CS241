@@ -22,6 +22,9 @@ int main(void) {
 int factorial (int n){
 	if (n == 1)
 		return 1;
-	else
-		return n*factorial(n-1);
+	else{
+    //printf("n = %d\n", n);
+    return n*factorial(n-1);
+    }
+		
 }
