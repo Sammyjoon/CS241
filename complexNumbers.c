@@ -144,7 +144,7 @@ complex_t subtract_complex(complex_t c1, complex_t c2) {    // input parameters
 
 complex_t multiply_complex(complex_t c1, complex_t c2) {  // input parameters
 
-	printf("Function multiply_complex returning first argument\n");
+	printf("\nFunction multiply_complex has been left as an exercise, and just returning first argument\n");
 	return (c1);
 }
 
@@ -155,7 +155,7 @@ complex_t multiply_complex(complex_t c1, complex_t c2) {  // input parameters
 
 complex_t divide_complex(complex_t c1, complex_t c2) {     // input parameters
 
-	printf("Function divide_complex returning first argument\n");
+	printf("Function divide_complex has been left as an exercise, and just returning first argument\n");
 	return (c1);
 }
 
